@@ -37,6 +37,7 @@ const Cost = () => {axios.get('https://api.coingecko.com/api/v3/simple/price?ids
   )}
  setInterval(Cost,600000)
 
+
  //task1 
 // const ethereumtransaction=()=>{
 //     axios.get('https://api.etherscan.io/api?module=account&action=txlist&address=0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC&startblock=0&endblock=2702578&page=1&offset=10&sort=asc&apikey=GG2R8NBQWBI9PSSNY3Y343FBCU4SB8Z84R').then(
